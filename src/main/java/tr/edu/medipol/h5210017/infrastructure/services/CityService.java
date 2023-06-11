@@ -6,10 +6,11 @@ import tr.edu.medipol.h5210017.domain.Party;
 /**
  * @file CityService.java
  * @author enes
- * @description CityService ile ben DenizliSecimAPI projeme dinamik şehir özelliği eklemiş oldum.
- * 				Mantığıma göre şöyle bir sonuç alacağım. Şehir adı ve Partileri içeren bir liste ile sınıfı oluşturdum.
- * 				Bu sınıf içerisinde parti oy arttır statik metadu ile istediğim partinin oyunu arttıracağım. Bu arada
- * 				case'de verdiğiniz parti adı yoksa durumunu da rahat bir şekilde sorgulayabileceğim.
+ * @description
+ * 	CityService ile ben DenizliSecimAPI projeme dinamik şehir özelliği eklemiş oldum.
+ * 	Mantığıma göre şöyle bir sonuç alacağım. Şehir adı ve Partileri içeren bir liste ile sınıfı oluşturdum.
+ * 	Bu sınıf içerisinde parti oy arttır statik metadu ile istediğim partinin oyunu arttıracağım. Bu arada
+ * 	case'de verdiğiniz parti adı yoksa durumunu da rahat bir şekilde sorgulayabileceğim.
  */
 public class CityService {
     private String cityName;
@@ -23,8 +24,9 @@ public class CityService {
     /**
      * @method findParty
      * @return Party
-     * @description Sınıfa tanımlanan partileri döndürüp içerisinde verilen parti adı olup olmadığına bakar,
-     * 				eğer verilen parti adı bulunamadıysa bunu exception ile bildirir.
+     * @description
+     * 	Sınıfa tanımlanan partileri döndürüp içerisinde verilen parti adı olup olmadığına bakar,
+     * 	eğer verilen parti adı bulunamadıysa bunu exception ile bildirir.
      */
     public Party findParty(String partyName) {
     	for (Party party : parties) {
@@ -38,8 +40,9 @@ public class CityService {
     /**
      * @method incrementPartyVoteCount
      * @return void
-     * @description İsmi verilen partiyi kontrol eder, eğer parti varsa oyunu artırır.
-     * 				Bu durumu kullanıcıya mesaj oylu ile bildirir.
+     * @description
+     * 	İsmi verilen partiyi kontrol eder, eğer parti varsa oyunu artırır.
+     * 	Bu durumu kullanıcıya mesaj oylu ile bildirir.
      */
     public void incrementPartyVoteCount(String partyName) {
     	Party party = this.findParty(partyName);
@@ -51,8 +54,9 @@ public class CityService {
     /**
      * @method decrementPartyVoteCount
      * @return void
-     * @description İsmi verilen partiyi kontrol eder, eğer parti varsa oyunu azaltır.
-     * 				Bu durumu kullanıcıya mesaj oylu ile bildirir.
+     * @description
+     * 	İsmi verilen partiyi kontrol eder, eğer parti varsa oyunu azaltır.
+     * 	Bu durumu kullanıcıya mesaj oylu ile bildirir.
      */
     public void decrementPartyVoteCount(String partyName) {
     	Party party = this.findParty(partyName);

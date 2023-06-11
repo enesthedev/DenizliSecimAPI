@@ -7,10 +7,11 @@ import tr.edu.medipol.h5210017.infrastructure.services.*;
 /**
  * @file Main.java
  * @author enes
- * @description DenizliSecimAPI uygulaması bir konsol uygulaması olduğundan dolayı
- * 				presentation katmanında "system" paketini oluşturdum. Bu katman DDD için
- * 				uygulamaya erişim sağlayacağımız alanı kapsadığından (örn: http, graphql gibi)
- * 				system ismini uygun gördüm. console olması da muhtemel olabilirdi.
+ * @description
+ * 	DenizliSecimAPI uygulaması bir konsol uygulaması olduğundan dolayı
+ * 	presentation katmanında "system" paketini oluşturdum. Bu katman DDD için
+ * 	uygulamaya erişim sağlayacağımız alanı kapsadığından (örn: http, graphql gibi)
+ * 	system ismini uygun gördüm. console olması da muhtemel olabilirdi.
  */
 public class Main {
 

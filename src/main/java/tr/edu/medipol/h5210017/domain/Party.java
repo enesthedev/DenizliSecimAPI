@@ -3,8 +3,9 @@ package tr.edu.medipol.h5210017.domain;
 /**
  * @file Party.java
  * @author enes
- * @description Party sınıfı isim ve oy sayısı değişkenleriyle oluşturuldu.
- * 				Dersde işlediğimiz örnek ve istediğiniz koşul kapsamında yetecek şekilde tasarlandı.
+ * @description 
+ *	Party sınıfı isim ve oy sayısı değişkenleriyle oluşturuldu.
+ * 	Dersde işlediğimiz örnek ve istediğiniz koşul kapsamında yetecek şekilde tasarlandı.
  */
 public class Party {
     private String name; // Parti adını temsil eden değişken.
