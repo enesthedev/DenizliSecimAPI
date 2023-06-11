@@ -1,4 +1,4 @@
-package tr.edu.medipol.h5210017;
+package tr.edu.medipol.h5210017.infrastructure.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import tr.edu.medipol.h5210017.domain.Party;
 import tr.edu.medipol.h5210017.infrastructure.services.CityService;
 
-class CityServiceTest {
+public class CityServiceTest {
 	CityService cityService;
 
 	/**
