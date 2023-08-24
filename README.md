@@ -4,6 +4,7 @@ Türkiye'nin herhangi bir ilinde yapılan seçimleri tekrarlayabileceğiniz aç�
 ### Sistem Gereksinimleri
 
 - Java 18
+- Maven
 
 ### Kurulum Yönergeleri
 
